@@ -1,16 +1,44 @@
-header {
+header, footer {
     display: flex;
     justify-content: space-between;
-    background-color: aliceblue;
+    background-color: #1F2937;
     align-items: center;
+    padding: 24px;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    min-height: 100vh;
+    font-family: Hero Main Text;
 }
 
+.left-header {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
 
+.right-header {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    gap: 16px;
+}
+
+.image-section {
+    display: flex;
+    background-color: #1F2937;
+    padding: 16px;
+}
+
+.image-subtitle {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+    justify-content: space-between;
+}
 
 
 
