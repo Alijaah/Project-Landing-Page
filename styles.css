@@ -61,9 +61,9 @@ button {
     border: none;
     }
 
-img {
+.image-section img {
     display: flex;
-    width: 100px;
+    width: 300px;
     height: 100px;
 }
 
@@ -81,9 +81,19 @@ img {
 
 .logo-logo {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     justify-content: space-evenly;
+    gap: 52px; ;
+}
+
+.logo-group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logo-group img {
+    width: 200px;
+    height: 200px;
 }
 
 
