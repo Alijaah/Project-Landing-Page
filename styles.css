@@ -54,7 +54,7 @@ body {
    max-width: 500px;
 }
 
-button {
+.image-group-one button {
     border-radius: 8px;
     width: fit-content;
     background-color: #3882F6;
@@ -129,7 +129,48 @@ button {
 }
 
 .cta-section {
-    
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-container {
+    display: flex;
+    background-color: #3882F6;
+    padding: 2rem;
+    border-radius: 8px;
+    gap: 4rem;
+}
+
+.cta-subtitle {
+    font-weight: bold;
+    color: #F9FAF8;
+    padding-bottom: 0.5rem;
+}
+
+.cta-subtext {
+    color: #E5E7EB;
+}
+
+.cta-container button {
+    border-radius: 8px;
+    width: fit-content;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 8px;
+    border-color: #F9FAF8;
+}
+
+footer {
+    justify-content: center;
+    color: #F9FAF8;
+    display: flex;
 }
 
 
