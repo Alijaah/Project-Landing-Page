@@ -67,9 +67,8 @@ button {
     height: 100px;
 }
 
-.logo-selection {
-    display: flex;
-    padding: 5rem;
+.logo-section {
+    padding: 2rem;
 }
 
 .logo-section-title {
@@ -96,9 +95,30 @@ button {
     height: 200px;
 }
 
+.quote-section {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 5rem;
+    justify-content: center;
+}
 
+.quote-container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.quote {
+    text-align: left;
+    color: #1F2937;
+    font-family: light italic;
+    font-size: 36px;
+}
 
+.quote-author {
+    
+}
 
 
 
