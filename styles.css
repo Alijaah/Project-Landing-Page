@@ -75,7 +75,7 @@ button {
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
-    padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 .logo-logo {
@@ -103,7 +103,7 @@ button {
 }
 
 .quote-container {
-    width: 700px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,12 +112,15 @@ button {
 .quote {
     text-align: left;
     color: #1F2937;
-    font-family: light italic;
-    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 24px;
 }
 
 .quote-author {
-    
+    text-align: right;
+    font-weight: bold;
+    padding: 1rem;
 }
 
 
